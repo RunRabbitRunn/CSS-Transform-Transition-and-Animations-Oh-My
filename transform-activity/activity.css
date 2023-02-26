@@ -1,3 +1,32 @@
-main {
 
+
+
+.containter {
+    position: relative;
 }
+
+h1 {
+    position: fixed;
+}
+
+.wrapper {
+    position: fixed;
+    transform: skewy(170deg);
+    
+  }
+
+  main {
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+
+
+.info {
+    /*obect-fit: fill*/
+    position: absolute
+}
+
+
+
