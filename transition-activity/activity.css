@@ -1,1 +1,16 @@
+button {
+    
+    background: ghostwhite;
+    
+
+}
+
+button:hover {
+    
+    background-color: cornflowerblue;
+    transition-duration: 2s;
+    
+}
+
+/*Couln't figure out how to transition the button text color from black to white.*/
 
