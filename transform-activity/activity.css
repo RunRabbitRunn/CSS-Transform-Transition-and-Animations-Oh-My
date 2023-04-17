@@ -1,6 +1,4 @@
 
-
-
 .containter {
     position: relative;
 }
@@ -14,7 +12,7 @@ h1 {
     transform: skewy(170deg);
     
   }
-
+/*
   main {
     width: 100%;
     margin: 0px;
@@ -27,6 +25,9 @@ h1 {
     /*obect-fit: fill*/
     position: absolute
 }
+*/ 
+
+
 
 
 

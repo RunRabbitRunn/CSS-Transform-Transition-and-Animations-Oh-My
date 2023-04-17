@@ -17,7 +17,7 @@
   animation-name: bottom;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  rotate: 180deg;
+  
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
 
 @keyframes top {
   from {transform: rotate(45deg);}
-  to {trasnform: rotate(0deg);}
+  to {trasnform: rotate(75deg);}
 }
 
 @keyframes middle {
@@ -44,3 +44,8 @@ nav {
   to {transform: rotate (0deg); }
 }
 
+div#top {
+  left: rotate(0deg);
+  right: rotate(45deg);
+  
+}
