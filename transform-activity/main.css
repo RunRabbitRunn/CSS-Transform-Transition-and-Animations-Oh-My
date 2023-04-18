@@ -5,8 +5,8 @@ body  {
 }
 main {
   background-color: mediumaquamarine;
-  transform: translate(20px, 30px) rotate( -5deg);
-  height: 85vh;
+  transform: translate(20px,50px) rotate( -1deg);
+  height: 75vh;
   width: 100vh;
   margin: auto;
   display: flex;
