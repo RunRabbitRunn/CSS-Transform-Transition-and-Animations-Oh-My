@@ -29,23 +29,57 @@ nav {
   opacity: 1;
 }
 
+
 @keyframes top {
-  from {transform: rotate(45deg);}
-  to {trasnform: rotate(75deg);}
+  from {transform: translateY(0) rotate(0deg);}
+  to {transform: translateY(33px) rotate(45deg)}
 }
 
 @keyframes middle {
-  from {transform: color  purplr;}
-  to {}
+  from {}
+  to {background-color: mediumvioletred;}
 }
 
 @keyframes bottom {
-  from {transform: rotate(45deg);}
-  to {transform: rotate (0deg); }
+  from {transform: rotate(0deg);}
+  to {transform: translateY(-33px) rotate(-45deg)}
 }
 
-div#top {
-  left: rotate(0deg);
-  right: rotate(45deg);
-  
+
+
+/*
+#1-First try 
+@keyframes top {
+  from {transform:translateY(0) rotate(0deg);}
+  to {transform: translateY(0) rotate(45deg);}
 }
+
+
+@keyframes middle {
+  from {transform: color  purple;}
+  to {transform: color mediumvioletred}
+}
+
+@keyframes bottom {
+  from {transform: translateX(0) rotate(0deg);}
+  to {transform: translateX(0px) rotate (-45deg); }
+}
+*/
+
+/*
+#2-Second try
+@keyframes top {
+  from {transform:rotate(0deg);}
+  to {transform: translateY(0px,33px,0px) rotate(45deg);}
+}
+
+@keyframes middle {
+  from {transform: color  purple;}
+  to {transform: color mediumvioletred}
+}
+
+@keyframes bottom {
+  from {transform:rotate(0deg);}
+  to {transform:translateY(-45deg;) }
+}
+*/
